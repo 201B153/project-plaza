@@ -11,6 +11,7 @@ export default {
                 hotspot: true,
             },
         },
+        
         {
             name: 'buttonText',
             title: 'ButtonText',

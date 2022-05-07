@@ -22,6 +22,8 @@ export default {
             type: 'string',
             title: 'Description'
           },
+
+
         //   {
         //     name: 'author',
         //     type: 'reference',
@@ -29,6 +31,7 @@ export default {
         //     to: {type: 'person'}
         //   }
         ]
+        
       },
       { 
         name: 'name',
