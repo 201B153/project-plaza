@@ -179,12 +179,15 @@ span.text-red {
   margin-left: -20px;
   text-transform: uppercase;
 }
+
 .hero-banner-image {
   position: absolute;
+  background-color: #101111;
+  
   top: 0%;
   right: 20%;
-  width: 450px;
-  height: 450px;
+  width: 350px;
+  height: 350px;
 }
 
 .desc {
