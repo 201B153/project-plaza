@@ -56,7 +56,9 @@ const Navbar = () => {
 
         {showCart && <Cart />}
         <div className={style.headerIcon}>
-          <CgProfile />
+          <Link href="/">
+            <CgProfile />
+          </Link>
         </div>
       </div>
     </div>
