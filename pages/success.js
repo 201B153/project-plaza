@@ -50,7 +50,7 @@ const Success = ({ products }) => {
     setTotalPrice(0);
     setTotalQuantities(0);
     runFireworks();
-  }, []);
+  }, [setCartItems, setTotalPrice, setTotalQuantities]);
 
   // const getUrlFromId = products => {
   //   const [_file, id, extension] = ref.split('-');
@@ -64,11 +64,12 @@ const Success = ({ products }) => {
           <BsBagCheckFill />
         </p>
         <h2>Thank you for your Purchase!</h2>
-        <Link href="/">
-          <button type="button" width="300px" className="btn">
+        <div>
+          <button type="button" width="300px" className="btn"
+          onClick={() => {products}}>
             Download Your Zip File
           </button>
-        </Link>
+        </div>
         <p className="email-msg">Check your email inbox for the receipt.</p>
         <p className="description">
           If you have any questions or issue with transactions, please email us at
